@@ -1,7 +1,5 @@
-/*
-    home.css: This website contains selectors only used in home.css
+.verde {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,121,9,1) 35%, rgba(0,212,255,1) 100%);
 
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+}
