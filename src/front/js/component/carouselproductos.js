@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/index.scss";
+import "../../styles/index.css";
 
 export const Carouselproductos = () => {
 	let precios = ["₡100", "₡200", "₡300", "₡400", "₡500"];

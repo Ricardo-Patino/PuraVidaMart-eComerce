@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../img/logo.jpeg";
 import { Search } from "./search";
-import "../../styles/home.scss";
-import "../../styles/index.scss";
+import "../../styles/home.css";
+import "../../styles/index.css";
 
 export const Navbar = () => {
 	return (

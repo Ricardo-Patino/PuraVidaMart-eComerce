@@ -3,8 +3,8 @@ import { Context } from "../store/appContext";
 import { Carousel } from "../component/carousel";
 import { Search } from "../component/search";
 import { Footer } from "../component/footer";
-import "../../styles/home.scss";
-import "../../styles/index.scss";
+import "../../styles/home.css";
+import "../../styles/index.css";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);

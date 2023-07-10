@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Carousel = () => {
 	return (
-		<div id="carouselExampleControls" className="carousel slide ml-50" data-ride="carousel">
+		<div id="carouselExampleControls" className="carousel slide ml-50" dataRide="carousel">
 			<div className="carousel-inner ">
 				<div className="carousel-item active ">
 					<img
@@ -27,12 +27,12 @@ export const Carousel = () => {
 					/>
 				</div>
 			</div>
-			<a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-				<span className="carousel-control-prev-icon" aria-hidden="true" />
+			<a className="carousel-control-prev" href="#carouselExampleControls" role="button" dataSlide="prev">
+				<span className="carousel-control-prev-icon" ariaHidden="true" />
 				<span className="sr-only">Previous</span>
 			</a>
-			<a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-				<span className="carousel-control-next-icon" aria-hidden="true" />
+			<a className="carousel-control-next" href="#carouselExampleControls" role="button" dataSlide="next">
+				<span className="carousel-control-next-icon" ariaHidden="true" />
 				<span className="sr-only">Next</span>
 			</a>
 		</div>
